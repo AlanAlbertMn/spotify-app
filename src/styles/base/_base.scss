@@ -1,0 +1,63 @@
+* {
+	// font-family: Helvetica, Arial, sans-serif;
+	font-family: miFuente, Arial, sans-serif;
+	font-weight: 300;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: $white;
+	color: $primary;
+	// height: 100vh;
+	// width: 100vw;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.flex {
+	display: flex;
+}
+
+.center {
+	align-items: center;
+	justify-content: center;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.mb-2 {
+	margin-bottom: 2rem;
+}
+
+.bold {
+	font-weight: 500;
+}
+
+.paragraph{
+	margin: 2rem 0;	
+	line-height: 3rem;
+}
+
+// @font-face {
+// 	font-family: Montserrat;
+// 	src: url('../../assets/Montserrat-VariableFont_wght.ttf')
+// 			format('woff2 supports variations'),
+// 		url('../../assets/Montserrat-VariableFont_wght.ttf')
+// 			format('woff2-variations');
+// 	font-weight: 100 900;
+// 	font-stretch: 25% 151%;
+// }
+
+@font-face {
+	font-family: miFuente;
+	src: url('../../assets/Roboto-VariableFont_wdth\,wght.ttf')
+			format('woff2 supports variations'),
+		url('../../assets/Roboto-VariableFont_wdth\,wght.ttf')
+			format('woff2-variations');
+}
