@@ -5,10 +5,10 @@
 }
 
 .albums {
-	margin: 2% 1%;
+	margin: 1%;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	gap: 4%;
+	grid-gap: 5px;
 }
 
 .artist-container {
@@ -45,7 +45,7 @@
 
 .separator {
 	border: none;
-	margin: 5rem 0 3rem;
+	// margin: 5rem 0 3rem;
 }
 
 .title {
@@ -70,4 +70,9 @@
 	padding: 0.5rem 0;
 	text-align: center;
 	width: 75%;
+}
+
+#title {
+	font-size: 4vmax;
+	font-weight: 400;
 }
