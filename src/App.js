@@ -27,27 +27,26 @@ export const App = () => {
 	return (
 		<form onSubmit={search}>
 			<div className='container'>
-				<div className='flex center' style={{ gap: 15 }}>
+				<div className='flex center'>
 					<FaSpotify size={80} color='#1DB954' />
 					<h1 id='title'>Spotify Service</h1>
 				</div>
 				<div id='div-busqueda'>
 					<input
 						id='busqueda'
-						placeholder='Enter an album or an artist here...'
+						placeholder='Enter an album or artist here...'
 						formAction='submit'
 						ref={input}
 						autoComplete="off"
 					/>
+					<button id='search-btn'>Search</button>
 				</div>
-				{console.log(albums)}
-				{albums.length>0 && (
+				{albums.length > 0 && (
 					<>
 						<h1 className='title'>Albums</h1>
 						<div className='albums'>
 							{albums && albums.map(el => <Album data={el.data} />)}
 						</div>
-						<hr className='separator' />
 						<h1 className='title'>Artists</h1>
 						<div className='albums'>
 							{artists && artists.map(el => <Artist data={el.data} />)}

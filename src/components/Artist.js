@@ -9,7 +9,7 @@ export const Artist = ({data}) => {
         <a href={uri} target='_blank' rel="noreferrer">
           {visuals.avatarImage != null 
           ? <img src={visuals?.avatarImage.sources[0].url} alt={profile.name}/> 
-          : <MdOutlineImageNotSupported color='#b3b3b3' size='90%'/>}
+          : <MdOutlineImageNotSupported color='#212121' size='90%'/>}
         </a> 
         <h2>{profile?.name}</h2>
     </div>

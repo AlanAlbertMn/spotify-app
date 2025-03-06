@@ -25,7 +25,7 @@
 	}
 	
 	&:hover {
-		border: 5px solid $primary;
+		border: 5px solid $gray;
 	}
 }
 
@@ -39,17 +39,12 @@
 		object-fit: cover;
 	}
 	&:hover {
-		border: 5px solid $primary;
+		border: 5px solid $gray;
 	}
 }
 
-.separator {
-	border: none;
-	// margin: 5rem 0 3rem;
-}
-
 .title {
-	background-color: $special;
+	background-color: $secondary;
 	color: $white;
 	text-align: center;
 	font-weight: bold;
@@ -64,15 +59,31 @@
 
 #busqueda {
 	border: 2px solid $gray;
-	border-radius: 20px;
-	font-size: xx-large;
-	margin: 0 auto;
-	padding: 0.5rem 0;
-	text-align: center;
-	width: 75%;
+	border-right: none;
+	border-radius: 20px 0 0 20px;
+	font-size: 2vmax;
+	padding: 0.5rem 1rem;
+	width: 65%;
+}
+
+#search-btn {
+	border: 2px solid $secondary;
+	background-color: $secondary;
+	border-radius: 0 20px 20px 0;
+	border-left: none;
+	color: $white;
+	font-size: 1.8vmax;
+	font-weight: 400;
+	padding: 0.5rem 2rem;
+	&:hover {
+		background-color: $dark_secondary;
+		border: 2px solid $dark_secondary;
+		color: $white;
+	}
 }
 
 #title {
 	font-size: 4vmax;
 	font-weight: 400;
+	padding-left: 15px;
 }
