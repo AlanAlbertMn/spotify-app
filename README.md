@@ -6,3 +6,5 @@ ____
 ### TODOs
 - Change behaviour so instead of opening spotify, we fetch the songs of the album or top songs from the artist and display them in a scrollable floating card
 - Refactor code to make it more modular
+____
+###### Watch live here: https://alanalbertmn.github.io/spotify-app/
